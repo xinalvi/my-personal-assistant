@@ -1,0 +1,16 @@
+name: personal_assistant
+description: My personal assistant app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  text_to_speech: ^0.2.3
+  battery_plus: ^5.0.1
+
+flutter:
+  uses-material-design: true
