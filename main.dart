@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
   final TextToSpeech tts = TextToSpeech();
 
   void speakText() async {
-    await tts.setLanguage('bn-BD'); // বাংলা সেট করা হলো
+    await tts.setLanguage('bn-BD');
     await tts.speak('হ্যালো, আমি আপনার পার্সোনাল অ্যাসিস্ট্যান্ট। আমি এখনো তৈরি হচ্ছে।');
   }
 
